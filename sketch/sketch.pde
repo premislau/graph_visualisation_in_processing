@@ -9,9 +9,6 @@ Iterator resultIterator;
 Set<Integer> shownSubgraph;
 
 
-int subgraphIndex;
-
-
 //In this version graph is generated using gnp method; maximal cliques are extracted from it using Bron-Kerbosch algorithm;
 // maixmal cliques are shown (user can scroll through them using space bar).
 void setup() {
